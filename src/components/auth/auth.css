@@ -1,0 +1,21 @@
+.register {
+  margin: 0;
+  padding: 0;
+}
+.bth-submit{
+    color: #ffff;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    gap: 10px;
+    background: #23262b;
+  }
+  
+  .bth-submit{
+    background: linear-gradient(96.74deg, #00ffaa 3.69%, #4679f5 49.08%, #745bf5 94.84%);
+  }
+  .bth-submit:hover {
+    background: linear-gradient(96.74deg, #4b75f5 3.69%, #735bf5 49.08%, #02fcab 94.84%);
+  }

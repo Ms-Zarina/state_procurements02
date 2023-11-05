@@ -1,0 +1,80 @@
+.layout {
+  margin: 0;
+  padding: 10px;
+}
+.header,
+.header_logo,
+.header_menu-list,
+.header_auth {
+  /* width: 100%; */
+  display: flex;
+  gap: 65px;
+  align-items: center;
+}
+.header_logo {
+  width: 35%;
+}
+
+.logo-span {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.header_menu-link,
+.btn-log-in,
+.btn-sign-in {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+.header_menu-list {
+  margin-top: 12px;
+  width: 50%;
+  /* margin-left: 70px; */
+}
+.header_menu-link {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #e0e1e1;
+}
+.header_menu-link:hover {
+  background: linear-gradient(96.74deg, #00ffaa 3.69%, #4679f5 49.08%, #745bf5 94.84%) !important;
+}
+
+.btn-sign-in,
+.btn-log-in {
+  width: 202px;
+  height: 72px;
+  padding: 10px;
+  border-radius: 8px;
+  gap: 10px;
+  background: #23262b;
+}
+
+.btn-log-in {
+  background: linear-gradient(96.74deg, #00ffaa 3.69%, #4679f5 49.08%, #745bf5 94.84%);
+}
+.btn-log-in:hover {
+  background: linear-gradient(96.74deg, #4b75f5 3.69%, #735bf5 49.08%, #02fcab 94.84%);
+}
+.btn-sign-in:hover {
+  background: linear-gradient(96.74deg, #00ffaa 3.69%, #4679f5 49.08%, #745bf5 94.84%);
+}
+.header_auth {
+  display: flex;
+  justify-content: end;
+  width: 55%;
+}
